@@ -26,8 +26,9 @@ def execute_transaction
      end
      
      def reverse_transfer 
-       @sender.deposit(@amount)
-       @receiver.deposit(@amount)
+       if self.status == "complete" then
+         @sender.deposit(@amount)
+       @receiver.deposit(-@amount)
      end
 
 end
