@@ -15,9 +15,9 @@ def valid?
 @receiver.valid? 
 end
 
-def execute_transaction(transaction_amount)
-  @sender = @balance - transaction_amount
-  @receiver = @balance + transaction_amount
+def execute_transaction
+  @sender = @amount
+  @receiver = @amount 
 end
 
 end
