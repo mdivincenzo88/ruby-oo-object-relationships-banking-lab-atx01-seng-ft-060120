@@ -11,3 +11,4 @@ end
 end
 
 def #valid? 
+if 
