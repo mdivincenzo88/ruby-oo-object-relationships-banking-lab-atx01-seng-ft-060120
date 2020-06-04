@@ -30,6 +30,7 @@ end
        if self.status == "complete" then
          @sender.deposit(@amount)
        @receiver.deposit(-@amount)
+       @status = "reversed"
      end
 end
 end
