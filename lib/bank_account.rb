@@ -6,3 +6,5 @@ def initialize (user, balance)
   @user = user
   @balance = balance
 end
+
+end
