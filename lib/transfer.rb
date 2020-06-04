@@ -13,6 +13,7 @@ end
 def #valid? 
 if @sender.valid? == true && @receiver.valid? == true 
   then true
+else false 
 end
 end
 end
