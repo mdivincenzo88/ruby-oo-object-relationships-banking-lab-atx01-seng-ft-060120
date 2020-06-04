@@ -18,10 +18,6 @@ end
 def execute_transaction
   if @sender.balance < @amount then
     "Transaction rejected. Please check account balance."
-  elsif @sender.balance
-      @sender.deposit(@amount)
-  @sender = @sender.balance - @amount
-  @receiver = @receiver.balance + @amount 
+  end
 end
-
 end
