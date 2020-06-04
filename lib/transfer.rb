@@ -10,7 +10,7 @@ class Transfer
 end
 
 
-def #valid? 
+def valid? 
 @sender.valid?
 @receiver.valid? 
 end
