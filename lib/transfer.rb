@@ -25,11 +25,6 @@ def execute_transaction
     "Transaction rejected. Please check your account balance."
      end
      
-def reverse_transfer 
-  @receiver.deposit(-@amount)
-  @sender.deposit(@amount)
-end
-    
-    
+
 end
 end
