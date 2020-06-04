@@ -21,7 +21,6 @@ def execute_transaction
     @receiver = @receiver.deposit(amount)
   end
     
-    "Transaction rejected. Please check account balance."
-  end
+    
 end
 end
