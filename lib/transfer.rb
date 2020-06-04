@@ -6,3 +6,4 @@ class Transfer
     @status = "pending"
     @transfer_amount = transfer_amount
 end
+end
