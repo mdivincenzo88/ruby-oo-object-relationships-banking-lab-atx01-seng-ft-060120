@@ -17,7 +17,7 @@ end
 
 def execute_transaction
   @sender = @sender.balance - @amount
-  @receiver = @receiver. balance + @amount 
+  @receiver = @receiver.balance + @amount 
 end
 
 end
