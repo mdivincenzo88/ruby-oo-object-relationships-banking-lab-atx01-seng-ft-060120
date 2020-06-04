@@ -9,3 +9,5 @@ class Transfer
     @amount = amount
 end
 end
+
+def #valid? 
