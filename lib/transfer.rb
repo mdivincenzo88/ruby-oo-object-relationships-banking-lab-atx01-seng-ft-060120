@@ -16,8 +16,8 @@ def valid?
 end
 
 def execute_transaction
-  @sender = @amount
-  @receiver = @amount 
+  @sender = @sender.balance - @amount
+  @receiver = @receiver. balance + @amount 
 end
 
 end
