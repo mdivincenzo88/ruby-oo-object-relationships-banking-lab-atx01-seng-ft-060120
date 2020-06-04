@@ -21,8 +21,9 @@ def execute_transaction
     @sender.deposit(-@amount)
     self.status ="complete"
   else 
+     @status = "rejected"
     "Transaction rejected. Please check your account balance."
-    @status = "rejected"
+   
   end
     
     
