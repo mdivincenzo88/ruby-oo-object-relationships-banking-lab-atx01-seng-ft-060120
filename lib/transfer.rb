@@ -15,7 +15,7 @@ def valid?
 @receiver.valid? 
 end
 
-def execute_transaction
+def execute_transaction(transaction_amount)
   
 
 end
