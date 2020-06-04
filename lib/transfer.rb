@@ -11,9 +11,8 @@ end
 
 
 def #valid? 
-if @sender.valid? == true && @receiver.valid? == true 
-  then true
-else false 
+@sender.valid?
+@receiver.valid? 
 end
-end
+
 end
